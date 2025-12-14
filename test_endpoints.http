@@ -1,0 +1,34 @@
+### GET request to example server
+GET http://localhost:8080/ping
+
+###
+
+POST http://localhost:8080/invocations
+Content-Type: application/json
+
+{
+  "prompt": "I want to go to Denmark with my Campervan. Is Denmark a good country to travel with a Campervan?",
+  "actorId": "demo_user_4",
+  "sessionId": "session_1"
+}
+
+### Second request to test consistency
+
+POST http://localhost:8080/invocations
+Content-Type: application/json
+
+{
+  "prompt": "Great that sounds promising, can you give advise on the best time of year to visit Denmark with a Campervan?",
+  "actorId": "demo_user_4",
+  "sessionId": "session_1"
+}
+
+### Third request to test context handling
+POST http://localhost:8080/invocations
+Content-Type: application/json
+
+{
+  "prompt": "What country did we discuss traveling to with a Campervan?",
+  "actorId": "demo_user_4",
+  "sessionId": "session_2"
+}
