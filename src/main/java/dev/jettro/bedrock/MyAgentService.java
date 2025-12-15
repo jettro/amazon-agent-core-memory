@@ -1,20 +1,14 @@
-package com.example.bedrock;
+package dev.jettro.bedrock;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springaicommunity.agentcore.annotation.AgentCoreInvocation;
 import org.springaicommunity.agentcore.context.AgentCoreContext;
 import org.springaicommunity.agentcore.context.AgentCoreHeaders;
-import org.springframework.ai.chat.messages.AssistantMessage;
 import org.springframework.ai.chat.messages.Message;
-import org.springframework.ai.chat.messages.UserMessage;
-import org.springframework.lang.NonNull;
 import org.springframework.stereotype.Service;
-import software.amazon.awssdk.services.bedrockagentcore.model.*;
-import software.amazon.awssdk.services.bedrockagentcore.model.Content;
 
 import java.time.Clock;
-import java.time.Instant;
 import java.util.List;
 
 @Service

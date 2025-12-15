@@ -1,4 +1,4 @@
-package com.example.bedrock;
+package dev.jettro.bedrock;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.messages.Message;

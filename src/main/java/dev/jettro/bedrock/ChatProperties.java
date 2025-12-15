@@ -1,4 +1,4 @@
-package com.example.bedrock;
+package dev.jettro.bedrock;
 
 import jakarta.validation.constraints.NotBlank;
 import org.springframework.boot.context.properties.ConfigurationProperties;

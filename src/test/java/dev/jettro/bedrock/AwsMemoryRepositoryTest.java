@@ -1,4 +1,4 @@
-package com.example.bedrock;
+package dev.jettro.bedrock;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

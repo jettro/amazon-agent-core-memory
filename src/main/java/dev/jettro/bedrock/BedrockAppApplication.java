@@ -1,4 +1,4 @@
-package com.example.bedrock;
+package dev.jettro.bedrock;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

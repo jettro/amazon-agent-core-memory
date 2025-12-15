@@ -1,4 +1,4 @@
-package com.example.bedrock;
+package dev.jettro.bedrock;
 
 import software.amazon.awssdk.services.bedrockagentcorecontrol.model.Memory;
 
